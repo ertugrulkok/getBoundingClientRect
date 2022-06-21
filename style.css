@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  padding: 5rem;
+  overflow-x: hidden;
+  padding-top: 15rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 1rem 0;
+  color: #fff;
+  text-shadow: 0 0 0.2rem #fff;
+  text-align: center;
+}
+.box {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5);
+  background-position: center;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: 500ms ease-in-out transform, 200ms ease-in-out opacity;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  
+  text-shadow: 0 0 0.5rem #000;
+  letter-spacing: 0.2rem;
+}
+
+.box1 {
+  background-image: url(images/img1.jpg);
+  transform: translateX(100%);
+
+}
+.box2 {
+  background-image: url(images/img2.jpg);
+  transform: translateX(-100%);
+}
+.box3 {
+  background-image: url(images/img3.jpg);
+  transform: translateX(100%);
+}
+.box4 {
+  background-image: url(images/img4.jpg);
+  transform: translateX(-100%);
+}
+.box5 {
+  background-image: url(images/img5.jpg);
+  transform: translateX(100%);
+}
+
+.box6 {
+  background-image: url(images/img6.jpg);
+  transform: translateX(-100%);
+}
+
+.box7 {
+  background-image: url(images/img7.jpg);
+  transform: translateX(-100%);
+}
+.box8 {
+  background-image: url(images/img8.jpg);
+  transform: translateX(-100%);
+}
+
+.show_content {
+  opacity: 1;
+  transform: translateX(0);
+}
